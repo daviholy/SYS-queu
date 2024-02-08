@@ -1,4 +1,4 @@
-# Diskrétní imulace front u pokladen
+# Diskrétní simulace front u pokladen
 
 Terminálová aplikace, která provádí a vizualizuje simulaci po krocích.
 
