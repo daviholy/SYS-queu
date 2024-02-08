@@ -1,0 +1,65 @@
+.center{
+    text-align: center;
+}
+
+Screen {
+    layout: grid;
+    grid-size: 5 3;
+    margin: 1;
+}
+
+ViewCashDesk{
+    layout: grid;
+    grid-size: 1 2;
+    grid-rows: auto 1fr;
+    border: heavy green;
+}
+
+ViewCashDesk:disabled{
+    border: heavy red;
+}
+
+ViewCashDeskHeader{
+    layout: grid;
+    grid-size: 3 1;
+    background: green;
+    align: center middle;
+}
+
+ViewCashDeskHeader:disabled{
+    layout: grid;
+    grid-size: 3 1;
+    background: red;
+}
+
+Viewqueue{
+    layout: grid;
+    grid-size: 6 3;
+    height: 1fr;
+    width: 1fr;
+}
+
+ViewPerson {
+    margin-top: 1;
+    margin-right: 1;
+    height: 8;
+    width: 8;
+    background: green;
+    layout: horizontal;
+    align: center middle;
+}
+Header {
+        dock: top;
+        width: 100%;
+        background: $foreground 5%;
+        color: $text;
+        height: 1;
+        layout: grid;
+        grid-size: 3 1;
+    }
+
+#testing{
+    width: 100%;
+    text-align: right;
+    padding-right: 1;
+}
